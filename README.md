@@ -1,5 +1,7 @@
 # InfinityHacks
 
+ ![Badge en Desarollo](https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green)
+
 _Una nueva y potente herramienta para termux_
 
 ## Comenzando 🚀
