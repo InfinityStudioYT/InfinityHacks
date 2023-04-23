@@ -24,7 +24,7 @@ _Para instalar el repositorio copia y pega estos comandos_
 _Clona el repositorio_
 
 ```
-git clone
+git clone https://github.com/InfinityStudioYT/InfinityHacks.git
 ```
 
 _Te dirige a la carpeta_
