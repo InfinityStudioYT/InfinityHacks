@@ -4,6 +4,10 @@
 
 _Una nueva y potente herramienta para termux_
 
+
+### Testeado en:
+_Termux_
+
 ## Comenzando 🚀
 
 _Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en Termux._
