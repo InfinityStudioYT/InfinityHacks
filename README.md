@@ -11,7 +11,7 @@ _Estas instrucciones te permitirán obtener una copia del proyecto en funcionami
 Mira **Instalacion** para conocer como Instalar el proyecto.
 
 
-### Pre-requisitos 📋
+### requisitos 📋
 
 _Tener android 8 en adelante_
 
