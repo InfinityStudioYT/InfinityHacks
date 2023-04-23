@@ -28,3 +28,8 @@ else
   # No hay cambios remotos
   echo "El repositorio $repo está actualizado."
 fi
+
+# Agregar los comandos cd al final del script
+cd
+cd InfinityHacks
+bash InfinityHacks.sh
