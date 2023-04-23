@@ -17,9 +17,7 @@ Mira **Instalacion** para conocer como Instalar el proyecto.
 
 ### requisitos 📋
 
-_Tener android 8 en adelante_
-
-_150mb de espacio_
+_Los requisitos varian segun la herramienta que instales_
 
 ### Instalación 🔧
 
